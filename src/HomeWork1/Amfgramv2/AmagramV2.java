@@ -33,10 +33,10 @@ public class AmagramV2 {
             }
         }
         }
-        public static String reverseString(String a){
+        public static String reverseString(String partOfString){
             String newStr = "";
-            for (int i = a.length()-1; i >= 0; i--){
-                newStr+=a.charAt(i);
+            for (int i = partOfString.length()-1; i >= 0; i--){
+                newStr+=partOfString.charAt(i);
             }
             return newStr;
         }
